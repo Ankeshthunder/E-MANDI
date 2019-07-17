@@ -1,0 +1,47 @@
+create database dbname;
+
+use dbname;
+
+show databases;
+
+create table student (roll int,name varchar(50),marks float);
+
+show tables;
+
+desc student;
+
+insert into student values(100,'harish',98.2);
+
+insert into student values(101,'suresh',56.2);
+
+insert into student(name,marks,roll) values('mahesh',36.2,90);
+
+insert into student(name,marks) values('suresh',56.2);
+
+insert into student set name='aman',roll=45,marks=23.9;
+
+select * from student;
+
+select name,marks from student;
+
+select * from student where roll>100;
+
+select * from student where roll<100 and marks<50;
+
+update student set name='raman', marks=67.2 where roll=101;
+
+delete from student;
+
+delete from student where roll>100; 
+
+select * from student where roll is null;
+
+insert into student set name='',marks=99,roll=102;
+
+---------------------------------------------------
+
+create table employee (ecode int primary key, ename varchar(50) not null, dob date not null, pan varchar(10) unique, marks int default 0);
+
+
+
+

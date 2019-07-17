@@ -1,0 +1,17 @@
+Java Database Connectivity (JDBC)
+--------------------------
+
+1. Establish connection with database
+2. Execute queries
+3. Close connection
+
+1. Establish connection with database
+a) Initialize jdbc driver
+b) Create connection string.
+   Connection string is a special string for each database which specifies details of database e.g. where database is stored, port number etc.
+c) Open connection using this connection string
+
+
+package used for jdbc is java.sql
+
+

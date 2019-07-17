@@ -1,0 +1,15 @@
+Input a string and perform following operations
+1) Check whether string is valid numeric string or not
+2) Check whether string is valid Indian pincode or not
+3) Check whether string is valid name or not
+4) Check whether string is valid email or not
+
+
+
+Class validation
+{
+static boolean isValidNumeric(string)
+static boolean isValidPincode(string)
+static boolean isValidName(string)
+static boolean isValidEmail(string)
+}
